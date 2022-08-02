@@ -1,0 +1,5 @@
+__pycache__/
+appdata/
+.DS_STORE/
+.pyc
+/appdata/
