@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 import logging
 from error_definitions import LogfileNotMade
-from settings_io import get_settings
+from admin import get_settings
 from gui_program import *
 
 if __name__ == "__main__":

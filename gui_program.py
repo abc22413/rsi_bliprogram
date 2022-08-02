@@ -98,7 +98,7 @@ def run_app(arduino_port="COM9"):
     #KIV for user protection
     global CALIBRATION_ON; CALIBRATION_ON = False
     #Counter for stepper steps in left-right axis
-    global SIDE_STEPS; SIDE_STEPS = SETTINGS["Startup"]["X"]; print(SIDE_STEPS)
+    global SIDE_STEPS; SIDE_STEPS = SETTINGS["Startup"]["X"]
     global SIDE_STEPS_STR; SIDE_STEPS_STR = StringVar()
     def update_side_steps_str():
         global SIDE_STEPS; global SIDE_STEPS_STR
@@ -106,7 +106,7 @@ def run_app(arduino_port="COM9"):
     update_side_steps_str()
 
     #Counter for stepper steps in front-back axis
-    global VERT_STEPS; VERT_STEPS = SETTINGS["Startup"]["Y"]; print(VERT_STEPS)
+    global VERT_STEPS; VERT_STEPS = SETTINGS["Startup"]["Y"]
     global VERT_STEPS_STR; VERT_STEPS_STR = StringVar(); 
     def update_vert_steps_str():
         global VERT_STEPS; global VERT_STEPS_STR
