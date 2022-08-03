@@ -1,5 +1,19 @@
-BLI
+# Features
 
-How to Use
+## Motor Control
+### Manual movement
 
-Features
+### Calibration
+
+### Position Callouts
+
+### Translate by
+
+### Translate to
+
+### Focus
+
+## Coding Features
+### Logging
+
+### Persistence of calibration
